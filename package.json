@@ -1,0 +1,17 @@
+{
+  "name": "ggwp-dapp-express-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "Jeds Gonzales",
+  "license": "ISC",
+  "dependencies": {
+    "@truffle/hdwallet-provider": "^1.0.35",
+    "express": "^4.17.1",
+    "express-http-proxy": "^1.6.0"
+  }
+}
