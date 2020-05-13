@@ -172,7 +172,12 @@ const IndexPage = () => {
                     return <>Better Luck Next Time!</>;
                 }
             case 'transacting':
-                return <>Wow! You have won ${chest[selection]} tokens!</>;
+                return (
+                    <>
+                        Wow! You have won {chest[selection]} tokens!<br />
+                        Please Wait....
+                    </>
+                );
 
             case 'countdown':
                 if(chest[selection] !== 0){
