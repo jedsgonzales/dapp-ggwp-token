@@ -49,7 +49,7 @@ _Jeds Gonzales_
     ```shell
     cd ggwp-contract/client
     npm install
-    npm run dev
+    npm start
     ```
 
     Wait for gatsby development console to reach status of 'SUCCESS'. The app then 
